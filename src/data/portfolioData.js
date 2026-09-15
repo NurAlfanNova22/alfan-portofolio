@@ -2,9 +2,9 @@ export const portfolioData = {
   personal: {
     name: "NoiseCode",
     fullName: "Nur Alfan Nova Perdana",
-    role: "Full-Stack Web Developer",
-    tagline: "Membangun solusi digital dan aplikasi web modern berkinerja tinggi.",
-    bio: "Saya berfokus pada pengembangan aplikasi web responsif, optimasi e-commerce, dan penyediaan arsitektur teknis yang solid untuk membantu mencapai tujuan bisnis Anda.",
+    role: "Full-Stack & AI Solutions Developer",
+    tagline: "Membangun aplikasi web cerdas & berkinerja tinggi dengan integrasi AI dan arsitektur modern.",
+    bio: "Saya berfokus pada pengembangan aplikasi web responsif, integrasi model AI/LLM, serta arsitektur teknis modern untuk menciptakan solusi digital yang inovatif dan efisien.",
     location: "Blitar, Jawa Timur, Indonesia",
     email: "wizardb67@gmail.com",
     phone: "085327242507",
@@ -14,7 +14,11 @@ export const portfolioData = {
       linkedin: "https://www.linkedin.com/in/nur-alfan-nova-perdana-b39a24248/",
       instagram: "https://instagram.com/nur_alfan22"
     },
-    stats: []
+    stats: [
+      { label: "Proyek Selesai", value: "6+" },
+      { label: "AI Integrations", value: "3+" },
+      { label: "Modern Stack", value: "Next.js & AI" }
+    ]
   },
   skills: [
     {
@@ -32,6 +36,15 @@ export const portfolioData = {
         { name: "Node.js & Express.js", level: "Proficient", percent: 85 },
         { name: "REST API", level: "Proficient", percent: 85 },
         { name: "MySQL / PostgreSQL", level: "Proficient", percent: 80 }
+      ]
+    },
+    {
+      category: "AI & Automation",
+      items: [
+        { name: "LLM Integration (OpenAI/Gemini)", level: "Proficient", percent: 85 },
+        { name: "Vercel AI SDK", level: "Proficient", percent: 85 },
+        { name: "Prompt Engineering", level: "Advanced", percent: 90 },
+        { name: "AI-Augmented Development", level: "Advanced", percent: 90 }
       ]
     },
     {
