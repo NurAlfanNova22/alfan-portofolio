@@ -94,14 +94,17 @@ export const portfolioData = {
     },
     {
       id: 4,
-      title: "Restaurant Culinary Landing",
+      title: "L'Émeraude Culinary Landing",
       category: "Landing Page",
-      description: "Website restoran premium dengan animasi interaktif, reservasi online, dan visual katalog menu digital.",
-      techStack: ["Next.js", "Tailwind CSS", "Framer Motion"],
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=60",
-      demoUrl: "https://github.com",
-      githubUrl: "https://github.com",
-      featured: false
+      description: "Website restoran mewah premium dengan animasi interaktif Framer Motion, sistem reservasi meja online, dan katalog menu kuliner digital eksklusif.",
+      longDescription: "L'Émeraude adalah landing page restoran mewah yang dirancang dengan estetika tinggi. Menampilkan pengalaman visual yang imersif, transisi halaman mulus menggunakan Framer Motion, reservasi online yang responsif, serta galeri menu kuliner interaktif.",
+      challenges: "Menghadirkan nuansa mewah dan elegan tanpa mengorbankan performa animasi dan kecepatan muat halaman di berbagai perangkat.",
+      solutions: "Mengoptimalkan komponen modular Next.js dengan animasi berbasis Framer Motion yang ringan serta desain layout yang fully responsive.",
+      techStack: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
+      image: "/images/restaurant.png",
+      demoUrl: "https://lemeraude-culinary-landing.vercel.app/",
+      githubUrl: "https://github.com/NurAlfanNova22",
+      featured: true
     },
     {
       id: 5,
