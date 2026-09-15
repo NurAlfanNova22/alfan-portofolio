@@ -22,10 +22,10 @@ export const Navbar = ({ darkMode, toggleDarkMode }) => {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,padding,border-color,box-shadow] duration-300 ${
       isScrolled 
         ? 'bg-white/85 dark:bg-slate-950/85 backdrop-blur-md py-3 border-b border-slate-200 dark:border-slate-800 shadow-sm dark:shadow-lg' 
-        : 'bg-transparent py-5'
+        : 'bg-transparent py-5 border-b border-transparent'
     }`}>
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         <a href="#hero" className="text-xl font-extrabold tracking-tight text-slate-900 dark:text-slate-100 flex items-center gap-1">
