@@ -92,14 +92,14 @@ export const portfolioData = {
     },
     {
       id: 5,
-      title: "Weather & Forecast App",
+      title: "SkyPulse",
       category: "Web App",
-      description: "Aplikasi cuaca interaktif dengan integrasi live API, pencarian kota global, dan ramalan kondisi cuaca.",
-      techStack: ["Next.js", "OpenWeather API", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&auto=format&fit=crop&q=60",
-      demoUrl: "https://github.com",
-      githubUrl: "https://github.com",
-      featured: false
+      description: "Aplikasi cuaca interaktif dengan informasi real-time, prakiraan akurat, dan antarmuka modern yang responsif.",
+      techStack: ["Next.js", "Tailwind CSS", "Weather API"],
+      image: "/images/skypulse.png",
+      demoUrl: "https://skypulse-five-topaz.vercel.app/",
+      githubUrl: "https://github.com/NurAlfanNova22/SkyPulse.git",
+      featured: true
     },
     {
       id: 6,
