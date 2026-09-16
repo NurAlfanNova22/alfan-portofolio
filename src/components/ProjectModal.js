@@ -68,6 +68,17 @@ export const ProjectModal = ({ project, isOpen, onClose }) => {
                     </p>
                   </div>
 
+                  {project.features && (
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-900 dark:text-slate-100 mb-2 uppercase tracking-wide">Fitur Utama</h4>
+                      <ul className="list-disc list-inside space-y-1 text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                        {project.features.map((feature, i) => (
+                          <li key={i}>{feature}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
                   {project.challenges && (
                     <div>
                       <h4 className="text-sm font-bold text-slate-900 dark:text-slate-100 mb-2 uppercase tracking-wide">Tantangan</h4>
