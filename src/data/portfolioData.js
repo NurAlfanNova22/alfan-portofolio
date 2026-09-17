@@ -63,7 +63,7 @@ export const portfolioData = {
       ],
       techStack: ["Next.js", "Tailwind CSS", "Node.js", "MongoDB"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60",
-      demoUrl: "https://github.com/NurAlfanNova22/ecommerce-tech-store",
+      demoUrl: "https://ecommerce-tech-store-git-main-noise11.vercel.app/",
       githubUrl: "https://github.com/NurAlfanNova22/ecommerce-tech-store",
       featured: true
     },
@@ -83,7 +83,7 @@ export const portfolioData = {
       ],
       techStack: ["React.js", "Next.js", "Tailwind CSS", "Prisma"],
       image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=60",
-      demoUrl: "https://github.com/NurAlfanNova22/task-workspace-manager",
+      demoUrl: "https://task-workspace-manager-three.vercel.app/",
       githubUrl: "https://github.com/NurAlfanNova22/task-workspace-manager",
       featured: true
     },
@@ -103,7 +103,7 @@ export const portfolioData = {
       ],
       techStack: ["Next.js", "Chart.js", "Tailwind CSS"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60",
-      demoUrl: "https://github.com/NurAlfanNova22/personal-finance-dashboard",
+      demoUrl: "https://personal-finance-dashboard-git-master-noise11.vercel.app/",
       githubUrl: "https://github.com/NurAlfanNova22/personal-finance-dashboard",
       featured: true
     },
@@ -163,7 +163,7 @@ export const portfolioData = {
       ],
       techStack: ["Figma", "UI/UX Design", "Design System"],
       image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=60",
-      demoUrl: "https://github.com/NurAlfanNova22/design-system-ui-kit",
+      demoUrl: "https://design-system-ui-kit-git-master-noise11.vercel.app/",
       githubUrl: "https://github.com/NurAlfanNova22/design-system-ui-kit",
       featured: false
     }
